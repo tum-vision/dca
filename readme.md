@@ -4,6 +4,8 @@ This repository contains the source code for the NeurIPS 2022 paper "Deep Combin
 
 ![dca](./images/dca.png)
 
+[[paper](TODO)] [[Arxiv link](TODO)]
+
 ## Usage
 
 ### Dependencies
@@ -17,18 +19,20 @@ It should work with Python >= 3.6 and latest pytorch / torchvision.
 
 ### Setup
 1. Prepare a python environment with the above dependencies.
+
 2. Install the `dca` package locally by running
-```bash
-pip install -e .
-```
-in this folder.
-3. Checkout the Python scripts in folder [experiments](./experiments) to run the respective experiments:
+  ```bash
+  pip install -e .
+  ```
+  in this folder.
+
+3. Checkout the Python scripts in folder "[experiments](./experiments)" to run the respective experiments:
   - [cifar10](./experiments/cifar10): In-domain CIFAR-10 experiments;
   - [svhn](./experiments/svhn): In-domain SVHN experiments;
   - [cifar10c](./experiments/cifar10c): Distributional shift experiments on CIFAR-10-C;
   - [ood](./experiments/ood): Out of distribution experiments;
 
-  Both the [CIFAR-10-C](./experiments/cifar10c) and the [OOD](./experiments/ood) experiments require trained models from the [CIFAR-10](./experiments/cifar10) experiments.
+  Both the [CIFAR-10-C](./experiments/cifar10c) and the [OOD](./experiments/ood) experiments require pre-trained models on [CIFAR-10](./experiments/cifar10).
 
 ## Citation
 
