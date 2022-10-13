@@ -4,7 +4,7 @@ This repository contains the source code for the NeurIPS 2022 paper "Deep Combin
 
 ![dca](./images/dca.png)
 
-[[paper](TODO)] [[Arxiv link](TODO)]
+[[paper](https://openreview.net/pdf?id=byMcacS8GYZ)] [[Arxiv link](http://arxiv.org/abs/2210.06436)]
 
 ## Usage
 
