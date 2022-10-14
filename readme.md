@@ -39,7 +39,7 @@ It should work with Python >= 3.6 and latest pytorch / torchvision.
 ```
 @InProceedings{shen2022dca,
 title={Deep Combinatorial Aggregation},
-author={Yuesong Shen, Daniel Cremers},
+author={Yuesong Shen and Daniel Cremers},
 booktitle = {NeurIPS},
 year = {2022}
 }
